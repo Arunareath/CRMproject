@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CRM Regression Suite">
+
+	<listeners>
+	    <!--<listener class-name="com.qa.hubspot.listeners.TesultsListener" /> -->
+		<!-- <listener class-name="com.qa.listners.ExtentReportListener" /> -->
+	<!-- 	<listener class-name="com.qa.listners.TestAllureListener" /> -->
+		<!-- <listener class-name="com.qa.hubspot.listeners.ScreenshotListener" /> -->
+	</listeners>
+
+	<test name="CRM Functional Regression Test">
+	<!-- 	<parameter name="browser" value="chrome" /> -->
+		
+		<classes>
+			<class name="com.crm.qa.testcases.LoginPageTest" />
+		</classes>
+		
+	</test>
+</suite> 
